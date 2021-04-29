@@ -2,6 +2,7 @@
   <div class="container">
     <!-- HEADER -->
     <Header />
+    <Hero />
   </div>
 </template>
 
