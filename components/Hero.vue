@@ -1,8 +1,13 @@
 <template>
-  <div class="bg-hero-pattern py-4 px-8 flex justify-between items-center">
-    <div>
-      <h1 class="font-extrabold text-5xl">text</h1>
-      <p>lorem ipsum lorem ipsum lorem ipsum lorem</p>
+  <div class="bg-hero-pattern px-8 flex">
+    <div class="m-auto text-gray-700 w-full">
+      <h1 class="font-extrabold text-center text-5xl">
+        The outsourced marketing unagency you can trust
+      </h1>
+      <p class="text-center font-light py-4 text-2xl">
+        Leveling up your Digital Marketing.Outsource to a dedicated marketing
+        team just for you
+      </p>
     </div>
   </div>
 </template>
