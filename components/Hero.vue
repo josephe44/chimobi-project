@@ -5,8 +5,11 @@
         The outsourced marketing unagency you can trust
       </h1>
       <p class="text-center font-light py-4 text-2xl">
-        Leveling up your Digital Marketing.Outsource to a dedicated marketing
-        team just for you
+        Are you looking for branding, leads and conversions, generating traffic
+        for your local business, sales, app installs, organic traffic, coverage
+        and visibility or do you want to learn a high paying skills that will
+        help you earn good money? This course is for you! In Google ads, you pay
+        for results only.
       </p>
     </div>
   </div>
