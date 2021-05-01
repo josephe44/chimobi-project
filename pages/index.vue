@@ -3,6 +3,7 @@
     <!-- HEADER -->
     <Header />
     <Hero />
+    <Featured />
   </div>
 </template>
 
