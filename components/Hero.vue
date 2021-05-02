@@ -20,7 +20,7 @@
   background-image: url(https://res.cloudinary.com/softnexus/image/upload/v1596465429/assets/images/nav/hero_section_img_p19gtf.svg);
   background-position-x: 50%;
   width: 100%;
-  height: 605px;
+  height: 680px;
   background-size: cover;
   background-repeat: no-repeat;
 }

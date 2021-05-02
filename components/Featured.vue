@@ -25,25 +25,78 @@
       </div>
     </div>
 
-    <div class="w-4/5 bg-gray-50 m-auto pt-14 pl-14 mt-8 rounded-2xl">
+    <!-- <div class="w-4/5 bg-gray-50 m-auto pt-14 pl-14 mt-8 rounded-2xl">
       <ul
         class="w-11/12 flex justify-start items-center pb-8"
         v-for="item in items"
         :key="item.offers"
       >
-        <img
-          class="checkbox"
-          src="https://res.cloudinary.com/softnexus/image/upload/v1596465127/assets/images/icons/Checkbox_p1dkio.svg"
-          alt="☑"
-        />
+
+        <svg
+          class="svg-inline--fa fa-check fa-w-16 text-primary mr-2"
+          width="24"
+          height="24"
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fa"
+          data-icon="check"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          data-fa-i2svg=""
+        >
+          <path
+            fill="#f16059"
+            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+          ></path>
+        </svg>
 
         <li class="flex list-none text-xl font-bold text-gray-600 pl-8">
           {{ item.offers }}
         </li>
       </ul>
+    </div> -->
+
+    <div class="w-4/5 bg-gray-50 m-auto mt-16">
+      <div class="bg-black p-4">
+        <h5 class="text-white font-bold text-xl text-center tracking-widest">
+          OTHER THRILLING OFFERS
+        </h5>
+      </div>
+
+      <div class="py-16 px-24 lists">
+        <ul
+          class="w-11/12 flex items-center py-4"
+          v-for="item in items"
+          :key="item.offers"
+        >
+          <svg
+            class="svg-inline--fa fa-check fa-w-16 text-primary mr-2"
+            width="24"
+            height="24"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fa"
+            data-icon="check"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            data-fa-i2svg=""
+          >
+            <path
+              fill="#f16059"
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            ></path>
+          </svg>
+
+          <li class="flex list-none text-xs font-base text-gray-600 pl-3">
+            {{ item.offers }}
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="w-4/6 m-auto text-gray-700 w-full mt-20">
+    <!-- <div class="w-4/6 m-auto text-gray-700 w-full mt-20">
       <h3 class="w-1/3 pb-4 m-auto font-extrabold text-4xl text-center">
         Ready to begin your success story?
       </h3>
@@ -58,7 +111,7 @@
       >
         <a href="">Learn Advanced Google Ads Now</a>
       </button>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -93,9 +146,6 @@ export default {
 }
 </script>
 <style scoped>
-.checkbox img {
-  max-width: 5%;
-}
 button {
   background: linear-gradient(
     141.27deg,
@@ -155,5 +205,16 @@ button {
   100% {
     border-radius: 15px;
   }
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.lists:nth-child(odd) {
+  border-color: black;
+  border-right: 1px black;
+  border-style: solid;
 }
 </style>
