@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div
-      class="bg-white py-4 px-8 mt-8 md:flex md:justify-around items-center flex-col"
-    >
+    <div class="bg-white py-4 px-8 mt-8 md:flex items-center">
       <div class="">
         <img
           src="https://res.cloudinary.com/audrepx100/image/upload/v1619774310/box-images_iktahw.png"
@@ -12,11 +10,11 @@
         />
       </div>
 
-      <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12">
+      <div class="text-gray-700 md:w-2/5 md:pl-12">
         <h3 class="md:pb-4 font-extrabold text-4xl text-center">
           We care about our customers
         </h3>
-        <p class="text-base font-medium md:w-11/12 leading-7 text-center">
+        <p class="text-base font-medium mt-6 md:w-11/12 leading-7 text-center">
           Compilation of a world class Google ads course that teaches you the
           indepth secrets and operational systems of advertising and getting
           results from a beginner level to an advanced level.The training comes
@@ -27,38 +25,6 @@
       </div>
     </div>
 
-    <!-- <div class="w-4/5 bg-gray-50 m-auto pt-14 pl-14 mt-8 rounded-2xl">
-      <ul
-        class="w-11/12 flex justify-start items-center pb-8"
-        v-for="item in items"
-        :key="item.offers"
-      >
-
-        <svg
-          class="svg-inline--fa fa-check fa-w-16 text-primary mr-2"
-          width="24"
-          height="24"
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fa"
-          data-icon="check"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-          data-fa-i2svg=""
-        >
-          <path
-            fill="#f16059"
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          ></path>
-        </svg>
-
-        <li class="flex list-none text-xl font-bold text-gray-600 pl-8">
-          {{ item.offers }}
-        </li>
-      </ul>
-    </div> -->
-
     <div class="w-4/5 m-auto mt-16 relative">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
@@ -68,9 +34,9 @@
 
       <div class="py-16 px-24 lists">
         <ul
-          class="w-11/12 flex items-center py-4"
           v-for="item in items"
           :key="item.offers"
+          class="w-11/12 flex items-center py-4"
         >
           <svg
             class="svg-inline--fa fa-check fa-w-16 text-primary mr-2"
