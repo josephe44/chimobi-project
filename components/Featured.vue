@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="bg-white py-4 px-8 mt-8 flex justify-around items-center">
+    <div
+      class="bg-white py-4 px-8 mt-8 md:flex md:justify-around items-center flex-col"
+    >
       <div class="">
         <img
           src="https://res.cloudinary.com/audrepx100/image/upload/v1619774310/box-images_iktahw.png"
@@ -10,11 +12,11 @@
         />
       </div>
 
-      <div class="text-gray-700 w-2/5 pl-12">
-        <h3 class="pb-4 font-extrabold text-4xl">
+      <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12">
+        <h3 class="md:pb-4 font-extrabold text-4xl text-center">
           We care about our customers
         </h3>
-        <p class="text-base font-medium w-11/12 leading-7">
+        <p class="text-base font-medium md:w-11/12 leading-7 text-center">
           Compilation of a world class Google ads course that teaches you the
           indepth secrets and operational systems of advertising and getting
           results from a beginner level to an advanced level.The training comes
@@ -57,7 +59,7 @@
       </ul>
     </div> -->
 
-    <div class="w-4/5 bg-gray-50 m-auto mt-16">
+    <div class="w-4/5 m-auto mt-16 relative">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
           OTHER THRILLING OFFERS
@@ -96,7 +98,7 @@
       </div>
     </div>
 
-    <!-- <div class="w-4/6 m-auto text-gray-700 w-full mt-20">
+    <div class="absolute w-4/6 m-auto bg-gray-50 text-gray-700 w-full -m-16">
       <h3 class="w-1/3 pb-4 m-auto font-extrabold text-4xl text-center">
         Ready to begin your success story?
       </h3>
@@ -111,7 +113,7 @@
       >
         <a href="">Learn Advanced Google Ads Now</a>
       </button>
-    </div> -->
+    </div>
   </div>
 </template>
 
