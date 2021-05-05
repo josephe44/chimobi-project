@@ -11,7 +11,7 @@
       </div>
 
       <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12 m-auto mt-8">
-        <h3 class="md:pb-4 font-extrabold text-4xl text-center">
+        <h3 class="md:pb-4 font-extrabold text-3xl md:text-4xl text-center">
           We care about our customers
         </h3>
         <p class="text-base font-medium md:w-11/12 leading-7 text-center">
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="w-11/12 md:w-4/5 m-auto mt-16 relative border -mb-16 z-10">
+    <div class="w-11/12 md:w-4/5 m-auto mt-16 relative border">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
           OTHER THRILLING OFFERS
@@ -64,8 +64,10 @@
       </div>
     </div>
 
-    <div class="absolute w-4/6 m-auto bg-gray-50 text-gray-700 w-full pt-24">
-      <h3 class="md:w-1/3 pb-4 m-auto font-extrabold text-4xl text-center">
+    <div class="absolute w-4/6 m-auto pt-12 bg-gray-50 text-gray-700 w-full">
+      <h3
+        class="md:w-1/3 pb-4 m-auto font-extrabold text-3xl md:text-4xl text-center"
+      >
         Ready to begin your success story?
       </h3>
       <p
