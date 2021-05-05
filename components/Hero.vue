@@ -4,7 +4,7 @@
       <h1 class="font-extrabold text-center text-4xl md:text-5xl">
         The outsourced marketing unagency you can trust
       </h1>
-      <p class="text-center font-light py-4 text-2xl md:text-lg">
+      <p class="text-center font-light py-4 text-lg md:text-2xl">
         Are you looking for branding, leads and conversions, generating traffic
         for your local business, sales, app installs, organic traffic, coverage
         and visibility or do you want to learn a high paying skills that will
