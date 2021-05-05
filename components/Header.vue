@@ -1,11 +1,16 @@
 <template>
-  <div class="bg-gray-300 w-screen">
+  <!-- --ADD BORDER BOTTOM AND SMOOTH TRANSITIONING ON CLICK OF HAMBURGER MENU-- -->
+
+  <div class="bg-gray-300 w-screen sticky top-0">
     <div class="py-4 px-8 flex flex-wrap justify-between items-center">
       <div class="flex items-center">
         <!-- <img src="" width="50" alt="Logo" class="" /> -->
         <div class="w-20 h-10 bg-gray-400"></div>
       </div>
-      <button class="block md:hidden" @click="showDropDown = !showDropDown">
+      <button
+        class="block md:hidden menu-toggle"
+        @click="showDropDown = !showDropDown"
+      >
         <svg
           v-if="!showDropDown"
           xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +58,10 @@
         >
       </div>
     </div>
-    <div v-if="showDropDown" class="font-medium block lg:hidden">
+    <div
+      v-if="showDropDown"
+      class="font-medium block lg:hidden border-t-2 border-gray-200"
+    >
       <a
         v-for="(link, index) in headerLinks"
         :key="index"
@@ -93,7 +101,18 @@ export default {
           name: 'Payment',
         },
       ],
+      methods: {
+        transition() {
+          this.$refs.transition.performTransition()
+        },
+      },
     }
   },
 }
 </script>
+
+<style scoped>
+*:focus {
+  outline: none !important;
+}
+</style>
