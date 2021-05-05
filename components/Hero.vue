@@ -1,8 +1,8 @@
 <template>
   <div class="bg-hero-pattern px-8 flex">
     <div class="m-auto text-gray-700 w-full">
-      <h1 class="font-extrabold text-center text-4xl md:text-5xl">
-        The outsourced marketing unagency you can trust
+      <h1 class="font-extrabold text-center text-4xl md:text-5xl capitalize">
+        re-invent your career with our online course
       </h1>
       <p class="text-center font-light py-4 text-lg md:text-2xl">
         Are you looking for branding, leads and conversions, generating traffic
