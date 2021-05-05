@@ -1,12 +1,10 @@
 <template>
-  <div class="bg-hero-pattern md:px-8 flex">
-    <div class="m-auto text-gray-700 md:w-4/5">
-      <h1
-        class="md:w-11/12 m-auto w-full font-extrabold text-center md:text-7xl text-5xl capitalize"
-      >
-        re-invent your career with our online course
+  <div class="bg-hero-pattern px-8 flex">
+    <div class="m-auto text-gray-700 w-full">
+      <h1 class="font-extrabold text-center text-4xl md:text-5xl">
+        The outsourced marketing unagency you can trust
       </h1>
-      <p class="md:w-3/5 w-11/12 text-center font-light py-4 text-base m-auto">
+      <p class="text-center font-light py-4 text-2xl md:text-lg">
         Are you looking for branding, leads and conversions, generating traffic
         for your local business, sales, app installs, organic traffic, coverage
         and visibility or do you want to learn a high paying skills that will
