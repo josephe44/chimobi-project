@@ -29,7 +29,7 @@
       <ul
         class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-12 mx-auto"
       >
-        <li v-for="(tests, i) in displayTests" :key="i" class="">
+        <li class="">
           <div class="w-32 lg:w-40 flex-shrink-0 pl-8">
             <div class="rounded-full overflow-hidden">
               <img
@@ -45,10 +45,10 @@
             <h3
               class="font-bold font-display leading-tight uppercase text-center"
             >
-              {{ tests.test_name }}
+              {{ displayTests[currentIndex].test_name }}
             </h3>
             <p class="mt-5 md:mt-8 lg:mt-2 lg:text-sm xl:text-base text-center">
-              {{ tests.test_text }}
+              {{ displayTests[currentIndex].test_text }}
             </p>
             <p
               class="mt-6 md:mt-8 pt-6 border-t border-grey text-center lg:text-left"
@@ -67,6 +67,7 @@
         fill="none"
         stroke-linecap="round"
         stroke-linejoin="round"
+        @click="currentIndex++"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
         <line x1="5" y1="12" x2="19" y2="12" />
@@ -81,6 +82,7 @@
 export default {
   data() {
     return {
+      currentIndex: 0,
       displayTests: [
         {
           test_name: 'Photosnap',
