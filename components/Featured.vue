@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div
+    <!-- <div
       class="absolute w-4/6 m-auto mt-24 pt-12 bg-gray-50 text-gray-700 w-full"
     >
       <h3
@@ -87,7 +87,7 @@
       >
         <a href="">Learn Advanced Google Ads Now</a>
       </button>
-    </div>
+    </div> -->
   </div>
 </template>
 
