@@ -35,7 +35,7 @@
               <img
                 width="701"
                 height="669"
-                src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp"
+                :src="displayTests[currentIndex].imgSrc"
                 class="w-full h-full object-cover"
                 alt=""
               />
@@ -85,6 +85,7 @@ export default {
       currentIndex: 0,
       displayTests: [
         {
+<<<<<<< HEAD
           test_name: 'AMANDA WORTHINGTON | UX, PRODUCT DESIGNER, PGI',
           test_text:
             'Now that I have tech skills, I have more than just a job. I have an entire career. And that’s thanks to the skills I learned at.',
@@ -104,6 +105,30 @@ export default {
             'TASHA HUSSEY | CHIEF EXECUTIVE TURTLE, LAVENDER TURTLE CREATIVE',
           test_text:
             'If I hadn’t taken Skillcrush classes, I would never have come this far because I would have continued to let fear and imposter syndrome hold me back. ',
+=======
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
+          test_name: 'Photosnap',
+          test_text: 'Senior Frontend Developer',
+        },
+        {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
+          test_name: 'Manage',
+          test_text: 'FullStack Developer',
+        },
+        {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
+          test_name: 'Account',
+          test_text: 'Junior Frontend Developer',
+        },
+        {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
+          test_name: 'MyHome',
+          test_text: 'Junior Frontend Developer',
+>>>>>>> 4d9c9d8458a0ee75a2256342b2eba216231bbb25
         },
       ],
     }
