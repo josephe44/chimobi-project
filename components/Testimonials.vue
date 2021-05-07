@@ -9,23 +9,25 @@
     <div
       class="flex flex-col md:flex-row items-center bg-gray-100 py-10 lg:py-20 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-10 md:mt-12 m-auto shadow"
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="icon icon-tabler icon-tabler-arrow-narrow-left"
-        width="50"
-        height="50"
-        viewBox="0 0 24 24"
-        stroke-width="1"
-        stroke="#f16059"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <line x1="5" y1="12" x2="19" y2="12" />
-        <line x1="5" y1="12" x2="9" y2="16" />
-        <line x1="5" y1="12" x2="9" y2="8" />
-      </svg>
+      <button @click="prev">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-arrow-narrow-left"
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          stroke-width="1"
+          stroke="#f16059"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="5" y1="12" x2="9" y2="16" />
+          <line x1="5" y1="12" x2="9" y2="8" />
+        </svg>
+      </button>
       <ul
         class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-12 mx-auto"
       >
@@ -56,27 +58,34 @@
           </blockquote>
         </li>
       </ul>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="icon icon-tabler icon-tabler-arrow-narrow-right"
-        width="50"
-        height="50"
-        viewBox="0 0 24 24"
-        stroke-width="1"
-        stroke="#f16059"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        @click="currentIndex++"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <line x1="5" y1="12" x2="19" y2="12" />
-        <line x1="15" y1="16" x2="19" y2="12" />
-        <line x1="15" y1="8" x2="19" y2="12" />
-      </svg>
+      <button @click="next">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-arrow-narrow-right"
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          stroke-width="1"
+          stroke="#f16059"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </button>
     </div>
   </div>
 </template>
+
+<style scoped>
+*:focus {
+  outline: none;
+}
+</style>
 
 <script>
 export default {
@@ -85,53 +94,46 @@ export default {
       currentIndex: 0,
       displayTests: [
         {
-<<<<<<< HEAD
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name: 'AMANDA WORTHINGTON | UX, PRODUCT DESIGNER, PGI',
           test_text:
-            'Now that I have tech skills, I have more than just a job. I have an entire career. And that’s thanks to the skills I learned at.',
+            'Now that I have tech skills, I have more than just a job. I have an entire career. And that’s thanks to the skills I learned at Skillcrush.',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/05/Melissa-Gerbereux.png.webp',
           test_name: 'MELISSA GERBEREUX | SENIOR CREATIVE DEVELOPER, MIQ',
           test_text:
-            'ompletely changed my life. Only 10 months after starting my first lesson, I was able to land a flexible job at a media agency and am continuously growing my freelance web design/dev business. ',
+            'completely changed my life. Only 10 months after starting my first lesson, I was able to land a flexible job at a media agency and am continuously growing my freelance web design/dev business',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/06/Erika-Tepler-1024x1024.jpg.webp',
           test_name: 'ERIKA TEPLER | HEAD OF MARKETING, PANION',
           test_text:
-            'I have more to be excited about in my career path than ever before. There’s so much more to do in this space and having a few hard skills makes it…it’s not even a path it’s just wide open.',
+            'JI have more to be excited about in my career path than ever before. ',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name:
             'TASHA HUSSEY | CHIEF EXECUTIVE TURTLE, LAVENDER TURTLE CREATIVE',
           test_text:
-            'If I hadn’t taken Skillcrush classes, I would never have come this far because I would have continued to let fear and imposter syndrome hold me back. ',
-=======
-          imgSrc:
-            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
-          test_name: 'Photosnap',
-          test_text: 'Senior Frontend Developer',
-        },
-        {
-          imgSrc:
-            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
-          test_name: 'Manage',
-          test_text: 'FullStack Developer',
-        },
-        {
-          imgSrc:
-            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
-          test_name: 'Account',
-          test_text: 'Junior Frontend Developer',
-        },
-        {
-          imgSrc:
-            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
-          test_name: 'MyHome',
-          test_text: 'Junior Frontend Developer',
->>>>>>> 4d9c9d8458a0ee75a2256342b2eba216231bbb25
+            'I would never have come this far because I would have continued to let fear and imposter syndrome hold me back.',
         },
       ],
     }
+  },
+  methods: {
+    next() {
+      if (this.currentIndex === 3) return
+      this.currentIndex++
+    },
+    prev() {
+      if (this.currentIndex === 0) return
+      this.currentIndex--
+    },
   },
 }
 </script>
