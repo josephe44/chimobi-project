@@ -85,20 +85,25 @@ export default {
       currentIndex: 0,
       displayTests: [
         {
-          test_name: 'Photosnap',
-          test_text: 'Senior Frontend Developer',
+          test_name: 'AMANDA WORTHINGTON | UX, PRODUCT DESIGNER, PGI',
+          test_text:
+            'Now that I have tech skills, I have more than just a job. I have an entire career. And that’s thanks to the skills I learned at.',
         },
         {
-          test_name: 'Manage',
-          test_text: 'FullStack Developer',
+          test_name: 'MELISSA GERBEREUX | SENIOR CREATIVE DEVELOPER, MIQ',
+          test_text:
+            'ompletely changed my life. Only 10 months after starting my first lesson, I was able to land a flexible job at a media agency and am continuously growing my freelance web design/dev business. ',
         },
         {
-          test_name: 'Account',
-          test_text: 'Junior Frontend Developer',
+          test_name: 'ERIKA TEPLER | HEAD OF MARKETING, PANION',
+          test_text:
+            'I have more to be excited about in my career path than ever before. There’s so much more to do in this space and having a few hard skills makes it…it’s not even a path it’s just wide open.',
         },
         {
-          test_name: 'MyHome',
-          test_text: 'Junior Frontend Developer',
+          test_name:
+            'TASHA HUSSEY | CHIEF EXECUTIVE TURTLE, LAVENDER TURTLE CREATIVE',
+          test_text:
+            'If I hadn’t taken Skillcrush classes, I would never have come this far because I would have continued to let fear and imposter syndrome hold me back. ',
         },
       ],
     }
