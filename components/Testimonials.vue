@@ -35,7 +35,7 @@
               <img
                 width="701"
                 height="669"
-                src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp"
+                :src="displayTests[currentIndex].imgSrc"
                 class="w-full h-full object-cover"
                 alt=""
               />
@@ -85,18 +85,26 @@ export default {
       currentIndex: 0,
       displayTests: [
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name: 'Photosnap',
           test_text: 'Senior Frontend Developer',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name: 'Manage',
           test_text: 'FullStack Developer',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name: 'Account',
           test_text: 'Junior Frontend Developer',
         },
         {
+          imgSrc:
+            'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
           test_name: 'MyHome',
           test_text: 'Junior Frontend Developer',
         },
