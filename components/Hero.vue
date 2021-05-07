@@ -1,7 +1,9 @@
 <template>
   <div class="bg-hero-pattern px-8 flex">
-    <div class="m-auto text-gray-700 w-full">
-      <h1 class="font-extrabold text-center text-4xl md:text-5xl capitalize">
+    <div class="m-auto text-gray-700 w-11/12">
+      <h1
+        class="m-auto font-extrabold text-center text-4xl w-full md:w-4/5 md:text-5xl capitalize"
+      >
         re-invent your career with our online course
       </h1>
       <p class="text-center font-light py-4 text-lg md:text-2xl">
