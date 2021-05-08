@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-11/12 md:w-4/5 m-auto mt-16 shadow">
+    <div class="w-11/12 md:w-4/5 m-auto pt-24 shadow">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
           OTHER THRILLING OFFERS
@@ -41,9 +41,7 @@
       </div>
     </div>
 
-    <!-- <div
-      class="absolute w-4/6 m-auto mt-24 pt-12 bg-gray-50 text-gray-700 w-full"
-    >
+    <div class="w-4/6 m-auto mt-24 pt-12 bg-gray-50 text-gray-700 w-full">
       <h3
         class="md:w-1/3 pb-4 m-auto font-extrabold text-3xl md:text-4xl text-center"
       >
@@ -62,7 +60,7 @@
       >
         <a href="">Learn Advanced Google Ads Now</a>
       </button>
-    </div> -->
+    </div>
   </div>
 </template>
 

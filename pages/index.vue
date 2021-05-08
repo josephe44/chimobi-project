@@ -3,9 +3,9 @@
     <!-- HEADER -->
     <Header />
     <Hero />
-    <Featured />
     <About />
     <Testimonials />
+    <Featured />
   </div>
 </template>
 
