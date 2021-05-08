@@ -5,7 +5,7 @@
         <h1
           class="m-auto font-extrabold text-center text-4xl w-full md:w-4/5 md:text-5xl capitalize"
         >
-          re-invent your career with our online course
+          re-invent your career with this online course
         </h1>
         <p class="text-center font-light py-4 text-lg md:text-2xl">
           Are you looking for branding, leads and conversions, generating
@@ -29,7 +29,7 @@
 
       <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12 m-auto mt-8">
         <h3 class="md:pb-4 font-extrabold text-3xl md:text-4xl text-center">
-          We care about our customers
+          Caring for you as a customer
         </h3>
         <p class="text-base font-medium md:w-11/12 leading-7 text-center">
           Compilation of a world class Google ads course that teaches you the
