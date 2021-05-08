@@ -1,7 +1,7 @@
 <template>
   <div class="my-24 w-full md:w-10/12 m-auto">
     <h2
-      class="m-auto font-bold text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
+      class="m-auto font-bold mb-24 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
     >
       totally new to digital marketing? so were they!
     </h2>
@@ -104,23 +104,21 @@ export default {
         {
           imgSrc:
             'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/05/Melissa-Gerbereux.png.webp',
-          test_name: 'MELISSA GERBEREUX | SENIOR CREATIVE DEVELOPER, MIQ',
+          test_name: 'MELISSA GERBEREUX | UX, PRODUCT DESIGNER, PGI',
           test_text:
-            'completely changed my life. Only 10 months after starting my first lesson, I was able to land a flexible job at a media agency and am continuously growing my freelance web design/dev business',
+            'completely changed my life. I was able to land a flexible job at a media agency and am continuously growing my freelance web design/dev business',
         },
         {
           imgSrc:
             'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/06/Erika-Tepler-1024x1024.jpg.webp',
-          test_name:
-            'ERIKA TEPLER | HEAD OF MARKETING, LAVENDER TURTLE CREATIVE',
+          test_name: 'ERIKA TEPLER | UX, PRODUCT DESIGNER, PGI',
           test_text:
             'I would never have come this far because I would have continued to let fear and imposter syndrome hold me back.',
         },
         {
           imgSrc:
             'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/08/AMW_small-1-e1597780704411.png.webp',
-          test_name:
-            'TASHA HUSSEY | CHIEF EXECUTIVE TURTLE, LAVENDER TURTLE CREATIVE',
+          test_name: 'TASHA HUSSEY | UX, PRODUCT DESIGNER, PGI',
           test_text:
             'I would never have come this far because I would have continued to let fear and imposter syndrome hold me back.',
         },
@@ -139,3 +137,11 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+@media (max-width: 767px) {
+  .mobile-height {
+    height: 38rem;
+  }
+}
+</style>
