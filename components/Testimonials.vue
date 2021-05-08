@@ -1,5 +1,5 @@
 <template>
-  <div class="py-24 w-full md:w-10/12 m-auto">
+  <div class="my-24 w-full md:w-10/12 m-auto">
     <h2
       class="m-auto font-bold mb-24 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
     >

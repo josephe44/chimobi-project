@@ -101,11 +101,6 @@ export default {
           name: 'Payment',
         },
       ],
-      methods: {
-        transition() {
-          this.$refs.transition.performTransition()
-        },
-      },
     }
   },
 }

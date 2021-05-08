@@ -4,6 +4,8 @@
     <Header />
     <Hero />
     <Featured />
+    <About />
+    <Testimonials />
   </div>
 </template>
 
