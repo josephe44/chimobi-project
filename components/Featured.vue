@@ -1,30 +1,5 @@
 <template>
   <div>
-    <div class="bg-white py-4 px-8 mt-8 md:flex md:justify-around items-center">
-      <div class="">
-        <img
-          src="https://res.cloudinary.com/audrepx100/image/upload/v1619774310/box-images_iktahw.png"
-          width="100%"
-          alt="Featured"
-          class=""
-        />
-      </div>
-
-      <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12 m-auto mt-8">
-        <h3 class="md:pb-4 font-extrabold text-3xl md:text-4xl text-center">
-          We care about our customers
-        </h3>
-        <p class="text-base font-medium md:w-11/12 leading-7 text-center">
-          Compilation of a world class Google ads course that teaches you the
-          indepth secrets and operational systems of advertising and getting
-          results from a beginner level to an advanced level.The training comes
-          in 3 phases: 6 courses, Advanced Google ads and lifetime mentorship.
-          Participants will get training on Google analytics, Google ads, and
-          Youtube all for free!
-        </p>
-      </div>
-    </div>
-
     <div class="w-11/12 md:w-4/5 m-auto mt-16 shadow">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
