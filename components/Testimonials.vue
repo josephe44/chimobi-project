@@ -7,7 +7,7 @@
     </h2>
 
     <div
-      class="flex flex-col md:flex-row items-center bg-gray-100 md:h-36 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
+      class="flex flex-col md:flex-row items-center bg-gray-100 mobile-height md:h-96 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
     >
       <button class="pointer" @click="prev">
         <svg
