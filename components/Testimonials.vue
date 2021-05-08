@@ -7,9 +7,9 @@
     </h2>
 
     <div
-      class="flex flex-col md:flex-row items-center bg-gray-100 py-10 lg:py-20 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-10 md:mt-12 m-auto shadow"
+      class="flex flex-col md:flex-row items-center bg-gray-100 md:h-36 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
     >
-      <button @click="prev">
+      <button class="pointer" @click="prev">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-left"
@@ -29,10 +29,10 @@
         </svg>
       </button>
       <ul
-        class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-12 mx-auto"
+        class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-6 mx-auto"
       >
         <li class="">
-          <div class="w-32 lg:w-40 flex-shrink-0 pl-8">
+          <div class="w-32 m-auto lg:w-40 flex-shrink-0">
             <div class="rounded-full overflow-hidden">
               <img
                 width="701"
@@ -43,7 +43,7 @@
               />
             </div>
           </div>
-          <blockquote class="mt-9 md:mt-0 md:mx-16 lg:mx-20">
+          <blockquote class="mt-9 md:mt-6 md:mx-16 lg:mx-20">
             <h3
               class="font-bold font-display leading-tight uppercase text-center"
             >
@@ -58,7 +58,7 @@
           </blockquote>
         </li>
       </ul>
-      <button @click="next">
+      <button class="pointer" @click="next">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-right"
@@ -89,6 +89,7 @@
 
 <script>
 export default {
+  name: 'Slider',
   data() {
     return {
       currentIndex: 0,
@@ -110,9 +111,10 @@ export default {
         {
           imgSrc:
             'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2020/06/Erika-Tepler-1024x1024.jpg.webp',
-          test_name: 'ERIKA TEPLER | HEAD OF MARKETING, PANION',
+          test_name:
+            'ERIKA TEPLER | HEAD OF MARKETING, LAVENDER TURTLE CREATIVE',
           test_text:
-            'JI have more to be excited about in my career path than ever before. ',
+            'I would never have come this far because I would have continued to let fear and imposter syndrome hold me back.',
         },
         {
           imgSrc:
