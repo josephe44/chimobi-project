@@ -1,15 +1,6 @@
 <template>
-  <div class="md:my-40 px-8 md:flex md:justify-around items-center">
-    <div class="">
-      <div class="background-design"></div>
-      <img
-        src="https://res.cloudinary.com/audrepx100/image/upload/v1620488152/kisspng-chief-executive-businessperson-organization-corpor-black-businessman-5b37c9a14a3429.360500291530382753304_y5c8ri.png"
-        width="80%"
-        alt="Featured"
-        class="m-auto md:ml-1"
-      />
-    </div>
-
+  <div>
+      
     <div class="text-gray-700 w-11/12 md:w-2/5 md:pl-12 m-auto mt-8">
       <h3
         class="md:pb-4 font-extrabold text-3xl md:text-4xl text-center capitalize"
