@@ -6,6 +6,7 @@
     <About />
     <Testimonials />
     <Featured />
+    <Footer />
   </div>
 </template>
 
