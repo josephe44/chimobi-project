@@ -1,6 +1,4 @@
 <template>
-  <!-- --ADD BORDER BOTTOM AND SMOOTH TRANSITIONING ON CLICK OF HAMBURGER MENU-- -->
-
   <div class="bg-gray-300 w-screen sticky top-0">
     <div class="py-4 px-8 flex flex-wrap justify-between items-center">
       <div class="flex items-center">
@@ -19,7 +17,7 @@
           height="24"
           viewBox="0 0 24 24"
           stroke-width="1.5"
-          stroke="#2c3e50"
+          stroke="#f16059"
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"

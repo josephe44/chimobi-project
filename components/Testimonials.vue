@@ -28,6 +28,7 @@
           <line x1="5" y1="12" x2="9" y2="8" />
         </svg>
       </button>
+
       <ul
         class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-6 mx-auto"
       >

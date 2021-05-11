@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-11/12 md:w-4/5 m-auto pt-24 shadow">
+    <div class="w-11/12 md:w-4/5 m-auto mt-24 shadow">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
           OTHER THRILLING OFFERS
@@ -40,27 +40,6 @@
         </ul>
       </div>
     </div>
-
-    <div class="w-4/6 m-auto mt-24 pt-12 bg-gray-50 text-gray-700 w-full">
-      <h3
-        class="md:w-1/3 pb-4 m-auto font-extrabold text-3xl md:text-4xl text-center"
-      >
-        Ready to begin your success story?
-      </h3>
-      <p
-        class="w-11/12 md:w-3/4 text-center text-base font-medium m-auto leading-7"
-      >
-        Looking to learn advanced Google ads focusing on Optimisation, ranking
-        ads, getting conversions, getting clients, minimizing ad spend,
-        targeting audiences, Google ads Optimisation tools, Advanced Google ads?
-        Want to learn both? it costs 110$ only.
-      </p>
-      <button
-        class="text-white font-bold flex items-center text-center rounded-3xl py-3 px-8 mt-8 m-auto cursor-pointer bounce"
-      >
-        <a href="">Learn Advanced Google Ads Now</a>
-      </button>
-    </div>
   </div>
 </template>
 
@@ -94,68 +73,8 @@ export default {
   },
 }
 </script>
+
 <style scoped>
-button {
-  background: linear-gradient(
-    141.27deg,
-    #f5b72f 4.56%,
-    #bd2467 57.6%,
-    #2497c3 90.86%
-  );
-  box-shadow: inset 3.44px 5.44px 19.3906px 6.84375px rgba(255, 255, 255, 0.79);
-}
-
-.bounce:hover {
-  animation: bounce 1s;
-  -webkit-animation: bounce 1s;
-}
-
-@keyframes bounce {
-  0% {
-    border-radius: 15px;
-  }
-  20% {
-    border-radius: 30px;
-  }
-  60% {
-    border-radius: 20px;
-    transform: scale(1.1);
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari and Chrome */
-  }
-  90% {
-    transform: scale(0.98);
-    -ms-transform: scale(0.98); /* IE 9 */
-    -webkit-transform: scale(0.98); /* Safari and Chrome */
-  }
-  100% {
-    border-radius: 15px;
-  }
-}
-
-@-webkit-keyframes bounce {
-  0% {
-    border-radius: 15px;
-  }
-  20% {
-    border-radius: 30px;
-  }
-  60% {
-    border-radius: 20px;
-    transform: scale(1.1);
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari and Chrome */
-  }
-  90% {
-    transform: scale(0.98);
-    -ms-transform: scale(0.98); /* IE 9 */
-    -webkit-transform: scale(0.98); /* Safari and Chrome */
-  }
-  100% {
-    border-radius: 15px;
-  }
-}
-
 .lists {
   display: grid;
 }
