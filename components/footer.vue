@@ -22,7 +22,9 @@
     </div>
 
     <div class="pt-40 pb-4 items-center">
-      <p class="text-center">© 2020 Chimaobi Ifenkwe Enterprises</p>
+      <p class="text-center text-gray-700 font-bold">
+        © 2020 Chimaobi Ifenkwe Enterprises
+      </p>
       <!-- <div class="pr-24 flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -48,8 +50,12 @@
     <div
       style="z-index: 214748364 !important; left: auto; right: 15px"
       class="floating-wpp"
+      @click="goToWhatsapp()"
     >
-      <div class="floating-wpp-button md:w-16 md:h-16">
+      <div
+        class="floating-wpp-button"
+        style="width: 60px; height: 60px; background-color: rgb(37, 211, 102)"
+      >
         <img
           src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg"
         />
@@ -58,6 +64,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    goToWhatsapp() {
+      this.$router.push('/https://wa.me/2348166757438')
+    },
+  },
+}
+</script>
 
 <style scoped>
 button {
@@ -127,6 +143,14 @@ button {
   left: 15px;
   font-size: 14px;
   transition: bottom 0.2s;
+}
+
+.floating-wpp:hover {
+  bottom: 17px;
+}
+
+.floating-wpp:hover .floating-wpp-button {
+  box-shadow: 1px 2px 8px rgb(60 60 60 / 40%);
 }
 
 .floating-wpp .floating-wpp-button {
