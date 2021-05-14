@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div id="services">
     <div class="w-11/12 md:w-4/5 m-auto mt-24 shadow">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
-          OTHER THRILLING OFFERS
+          THRILLING OFFERS
         </h5>
       </div>
 
