@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300 w-screen sticky top-0">
+  <div class="bg-gray-300 w-screen sticky top-0 opacity-99">
     <div class="py-4 px-8 flex flex-wrap justify-between items-center">
       <div class="flex items-center">
         <!-- <img src="" width="50" alt="Logo" class="" /> -->

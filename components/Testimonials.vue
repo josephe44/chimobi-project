@@ -1,7 +1,7 @@
 <template>
   <div class="my-24 w-full md:w-10/12 m-auto">
     <h2
-      class="m-auto font-bold mt-16 mb-12 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
+      class="m-auto font-bold mb-24 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
     >
       totally new to digital marketing? so were they!
     </h2>
@@ -28,7 +28,6 @@
           <line x1="5" y1="12" x2="9" y2="8" />
         </svg>
       </button>
-
       <ul
         class="flex flex-col lg:flex-row items-center lg:items-start w-5/6 max-w-5xl mt-6 mx-auto"
       >
@@ -53,10 +52,10 @@
             <p class="mt-5 md:mt-8 lg:mt-2 lg:text-sm xl:text-base text-center">
               {{ displayTests[currentIndex].test_text }}
             </p>
-            <p
-              class="mt-6 md:mt-8 pt-6 border-t border-grey text-center lg:text-left"
-            ></p>
           </blockquote>
+          <p
+            class="mt-6 md:mt-8 pb-6 border-t border-grey text-center lg:text-left"
+          ></p>
         </li>
       </ul>
       <button class="pointer" @click="next">
