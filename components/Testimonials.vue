@@ -125,13 +125,24 @@ export default {
       ],
     }
   },
+  mounted() {
+    setInterval(this.next, 6000)
+  },
   methods: {
     next() {
-      if (this.currentIndex === 3) return
+      if (this.currentIndex === 3) {
+        this.currentIndex = 0
+        return
+      }
+
       this.currentIndex++
     },
     prev() {
-      if (this.currentIndex === 0) return
+      if (this.currentIndex === 0) {
+        this.currentIndex = 3
+        return
+      }
+
       this.currentIndex--
     },
   },
