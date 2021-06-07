@@ -9,7 +9,7 @@
     <div
       class="flex flex-col md:flex-row items-center bg-gray-100 mobile-height md:h-96 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
     >
-      <button class="pointer" @click="prev">
+      <button class="pointer prev" @click="prev">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-left"
@@ -57,7 +57,7 @@
             class="mt-6 md:mt-8 pb-6 border-t border-grey text-center lg:text-left"
           ></p>
         </li>
-      </transition-group>
+      </ul>
       <button class="pointer next" @click="next">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -80,12 +80,6 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-*:focus {
-  outline: none;
-}
-</style>
 
 <script>
 export default {
@@ -126,8 +120,9 @@ export default {
     }
   },
   mounted() {
-    setInterval(this.next, 6000)
+    setInterval(this.next, 4000)
   },
+
   methods: {
     next() {
       if (this.currentIndex === 3) {
@@ -150,6 +145,10 @@ export default {
 </script>
 
 <style scoped>
+*:focus {
+  outline: none;
+}
+
 @media (max-width: 767px) {
   .mobile-height {
     height: 38rem;
