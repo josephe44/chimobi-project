@@ -57,8 +57,8 @@
             class="mt-6 md:mt-8 pb-6 border-t border-grey text-center lg:text-left"
           ></p>
         </li>
-      </ul>
-      <button class="pointer" @click="next">
+      </transition-group>
+      <button class="pointer next" @click="next">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-right"
