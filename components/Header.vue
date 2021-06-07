@@ -1,11 +1,14 @@
 <template>
-  <div class="bg-gray-300 w-screen">
+  <div class="bg-gray-300 w-screen sticky top-0">
     <div class="py-4 px-8 flex flex-wrap justify-between items-center">
       <div class="flex items-center">
         <!-- <img src="" width="50" alt="Logo" class="" /> -->
         <div class="w-20 h-10 bg-gray-400"></div>
       </div>
-      <button class="block md:hidden" @click="showDropDown = !showDropDown">
+      <button
+        class="block md:hidden menu-toggle"
+        @click="showDropDown = !showDropDown"
+      >
         <svg
           v-if="!showDropDown"
           xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +17,7 @@
           height="24"
           viewBox="0 0 24 24"
           stroke-width="1.5"
-          stroke="#2c3e50"
+          stroke="#f16059"
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -53,7 +56,10 @@
         >
       </div>
     </div>
-    <div v-if="showDropDown" class="font-medium block lg:hidden">
+    <div
+      v-if="showDropDown"
+      class="font-medium block lg:hidden border-t-2 border-gray-200"
+    >
       <a
         v-for="(link, index) in headerLinks"
         :key="index"
@@ -97,3 +103,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+*:focus {
+  outline: none !important;
+}
+</style>

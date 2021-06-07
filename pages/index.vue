@@ -1,7 +1,12 @@
 <template>
-  <div class="container">
+  <div class="">
     <!-- HEADER -->
     <Header />
+    <Hero />
+    <About />
+    <Testimonials />
+    <Featured />
+    <Footer />
   </div>
 </template>
 
