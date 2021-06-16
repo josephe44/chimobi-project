@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-50">
-    <div class="w-4/6 m-auto mt-24 pt-12 text-gray-700 w-full">
+  <div id="payment" class="bg-gray-50">
+    <div class="w-4/6 m-auto mt-96 pt-12 text-gray-700 w-full">
       <h3
         class="md:w-1/3 pb-4 m-auto font-extrabold text-3xl md:text-4xl text-center"
       >
@@ -15,13 +15,13 @@
         Want to learn both? it costs 110$ only.
       </p>
       <button
-        class="text-white font-bold flex items-center text-center rounded-3xl py-3 px-8 mt-8 m-auto cursor-pointer bounce"
+        class="text-white font-bold flex items-center text-center rounded-3xl py-3 px-16 mt-8 m-auto cursor-pointer bounce"
       >
-        <a href="">Learn Advanced Google Ads Now</a>
+        <a href="">Get Course Now</a>
       </button>
     </div>
 
-    <div class="pt-40 pb-4 items-center">
+    <div class="pt-60 pb-4 items-center">
       <p class="text-center text-gray-700 font-bold">
         © 2020 Chimaobi Ifenkwe Enterprises
       </p>
