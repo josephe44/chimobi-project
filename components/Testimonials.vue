@@ -1,5 +1,5 @@
 <template>
-  <div class="my-24 w-full md:w-10/12 m-auto">
+  <div id="testimonials" class="md: mt-96 w-full md:w-10/12 m-auto">
     <h2
       class="m-auto font-bold mb-24 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
     >
@@ -7,9 +7,9 @@
     </h2>
 
     <div
-      class="flex flex-col md:flex-row items-center bg-gray-100 md:h-36 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
+      class="flex flex-col md:flex-row items-center bg-gray-100 mobile-height md:h-96 py-10 lg:py-10 px-4 md:px-8 lg:px-16 w-10/12 md:w-full xl:px-20 mt-5 md:mt-6 m-auto shadow"
     >
-      <button class="pointer" @click="prev">
+      <button class="pointer prev" @click="prev">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-left"
@@ -52,13 +52,13 @@
             <p class="mt-5 md:mt-8 lg:mt-2 lg:text-sm xl:text-base text-center">
               {{ displayTests[currentIndex].test_text }}
             </p>
-            <p
-              class="mt-6 md:mt-8 pt-6 border-t border-grey text-center lg:text-left"
-            ></p>
           </blockquote>
+          <p
+            class="mt-6 md:mt-8 pb-6 border-t border-grey text-center lg:text-left"
+          ></p>
         </li>
       </ul>
-      <button class="pointer" @click="next">
+      <button class="pointer next" @click="next">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-narrow-right"
@@ -80,12 +80,6 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-*:focus {
-  outline: none;
-}
-</style>
 
 <script>
 export default {
@@ -125,13 +119,25 @@ export default {
       ],
     }
   },
+  mounted() {
+    setInterval(this.next, 4000)
+  },
+
   methods: {
     next() {
-      if (this.currentIndex === 3) return
+      if (this.currentIndex === 3) {
+        this.currentIndex = 0
+        return
+      }
+
       this.currentIndex++
     },
     prev() {
-      if (this.currentIndex === 0) return
+      if (this.currentIndex === 0) {
+        this.currentIndex = 3
+        return
+      }
+
       this.currentIndex--
     },
   },
@@ -139,6 +145,10 @@ export default {
 </script>
 
 <style scoped>
+*:focus {
+  outline: none;
+}
+
 @media (max-width: 767px) {
   .mobile-height {
     height: 38rem;

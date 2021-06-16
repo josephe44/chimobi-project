@@ -1,7 +1,5 @@
 <template>
-  <!-- --ADD BORDER BOTTOM AND SMOOTH TRANSITIONING ON CLICK OF HAMBURGER MENU-- -->
-
-  <div class="bg-gray-300 w-screen sticky top-0">
+  <div class="bg-gray-300 w-screen sticky top-0 opacity-99">
     <div class="py-4 px-8 flex flex-wrap justify-between items-center">
       <div class="flex items-center">
         <!-- <img src="" width="50" alt="Logo" class="" /> -->
@@ -19,7 +17,7 @@
           height="24"
           viewBox="0 0 24 24"
           stroke-width="1.5"
-          stroke="#2c3e50"
+          stroke="#f16059"
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -58,18 +56,20 @@
         >
       </div>
     </div>
-    <div
-      v-if="showDropDown"
-      class="font-medium block lg:hidden border-t-2 border-gray-200"
-    >
-      <a
-        v-for="(link, index) in headerLinks"
-        :key="index"
-        :href="link.link"
-        class="py-2 px-4 text-gray-600 block text-center md:inline-block"
-        >{{ link.name }}</a
+    <transition name="slide">
+      <div
+        v-if="showDropDown"
+        class="list font-medium block lg:hidden border-t-2 border-gray-200"
       >
-    </div>
+        <a
+          v-for="(link, index) in headerLinks"
+          :key="index"
+          :href="link.link"
+          class="py-2 px-4 text-gray-600 block text-center md:inline-block"
+          >{{ link.name }}</a
+        >
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -109,5 +109,20 @@ export default {
 <style scoped>
 *:focus {
   outline: none !important;
+}
+
+.list {
+  width: 100%;
+  position: absolute;
+  transform-origin: top;
+  transition: transform 0.4s ease-in-out;
+  overflow: hidden;
+  --tw-bg-opacity: 0.9;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: scaleY(0);
 }
 </style>
