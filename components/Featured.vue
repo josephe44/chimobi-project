@@ -1,6 +1,6 @@
 <template>
   <div id="services">
-    <div class="w-11/12 md:w-4/5 m-auto mt-24 shadow">
+    <div class="w-11/12 md:w-4/5 m-auto mt-80 shadow">
       <div class="bg-black p-4">
         <h5 class="text-white font-bold text-xl text-center tracking-widest">
           THRILLING OFFERS
