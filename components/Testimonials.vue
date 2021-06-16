@@ -1,5 +1,5 @@
 <template>
-  <div id="testimonials" class="my-24 w-full md:w-10/12 m-auto">
+  <div id="testimonials" class="md: mt-96 w-full md:w-10/12 m-auto">
     <h2
       class="m-auto font-bold mb-24 text-center text-3xl w-11/12 md:w-4/5 md:text-4xl capitalize"
     >

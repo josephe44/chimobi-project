@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="md:my-40 px-8 md:flex md:justify-around items-center">
+  <div id="about" class="md:mt-96 px-8 md:flex md:justify-around items-center">
     <div class="">
       <div class="background-design"></div>
       <img
